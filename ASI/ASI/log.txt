@@ -1,0 +1,16 @@
+2024-10-29 15:54:41,378 - INFO - Starting data cleaning process.
+2024-10-29 15:54:41,385 - INFO - Data loaded successfully.
+2024-10-29 15:54:41,393 - INFO - First few rows of the data:
+   rownames  gender ethnicity      score fcollege mcollege home urban  unemp  wage  distance  tuition  education income region
+0         1    male     other  39.150002      yes       no  yes   yes    6.2  8.09       0.2  0.88915         12   high  other
+1         2  female     other  48.869999       no       no  yes   yes    6.2  8.09       0.2  0.88915         12    low  other
+2         3    male     other  48.740002       no       no  yes   yes    6.2  8.09       0.2  0.88915         12    low  other
+3         4    male      afam  40.400002       no       no  yes   yes    6.2  8.09       0.2  0.88915         12    low  other
+4         5  female     other  40.480000       no       no   no   yes    5.6  8.09       0.4  0.88915         13    low  other
+2024-10-29 15:54:41,406 - INFO - Performing feature engineering...
+2024-10-29 15:54:41,430 - INFO - Feature engineering completed.
+2024-10-29 15:54:41,430 - INFO - Rounded 'score' to two decimal places.
+2024-10-29 15:54:41,430 - INFO - Generating report...
+2024-10-29 15:54:41,431 - INFO - Report generated.
+2024-10-29 15:54:41,431 - INFO - Filled 0 missing values (0.00% of total data).
+2024-10-29 15:54:41,432 - INFO - Removed 0 rows (0.00% of total rows).
